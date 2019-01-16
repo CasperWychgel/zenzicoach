@@ -33,7 +33,7 @@ mysqli_close($conn);
 <body>
 <?php
 if (!isset($_SESSION['a_username'])){
-    header("Location: ../mobile table-checkbox fix.html?login=unauthorised");
+    header("Location: ../index.php?login=unauthorised");
     exit();
 }
 else { ?>
@@ -61,12 +61,11 @@ else { ?>
                         <!--<th>Probleem</th>
                         <th>Vraag</th>-->
                         <th>Datum</th>
-                        <th><button class="btn waves-effect waves-light grey darken-3" type="submit" name="submit" onclick="return confirm('Weet u zeker dat u deze klant(en) wilt verwijderen?')">Verwijder
+                        <th>
+                            <button class="btn waves-effect waves-light grey darken-3" type="submit" name="submit" onclick="return confirm('Weet u zeker dat u deze klant(en) wilt verwijderen?')">Verwijder
                                 <i class="material-icons right">delete</i>
-                            </button></th>
-                        <th><button class="btn waves-effect waves-light grey darken-3" type="submit" name="submit2" onclick="return confirm('Weet u zeker dat u deze klant(en) een herinnerings email wilt sturen?')">Mail
-                                <i class="material-icons right">send</i>
-                            </button></th>
+                            </button>
+                        </th>
                     </tr>
                     </thead>
                     <tbody>
@@ -91,13 +90,10 @@ else { ?>
                             </label>
                         </td>
                         <td>
-                            <label>
-                                <input type="checkbox" name="checkmail[]" id="checkmail" value=" <?php echo $row['user_email'] ?> " />
-                                <span></span>
-                            </label>
+                            <a class="btn waves-effect waves-light grey darken-3" href="detail.php?id= <?php echo $row['id'] ?> " >Details</a>
                         </td>
                         <td>
-                            <a class="btn waves-effect waves-light grey darken-3" href="detail.php?id= <?php echo $row['id'] ?> " >Details</a>
+                            <a class="btn waves-effect waves-light grey darken-3" onclick="return confirm('Weet u zeker dat u deze klant(en) een herinnerings email wilt sturen?')" >Mail</a>
                         </td>
                     </tr>
                     <?php } ?>
