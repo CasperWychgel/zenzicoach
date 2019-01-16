@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1, h2, h3, p {
+    font-family: 'Nunito', sans-serif;
+}
+.backgroundtheme{
+    background-color: #b6e5e6;
+    margin: 0px;
+}
+
+@media screen and (min-width: 600px) {
+    .mobilefont {
+        font-size: 7vw;
+    }
+    .centeredtext{
+        padding-top: 200px;
+        padding-bottom: 200px;
+        margin: 0;
+    }
+    .centeredtextsmlbottom {
+        padding-top: 80px;
+        padding-bottom: 60px;
+        margin: 0;
+    }
+    .adminintro{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .mobilefont {
+        font-size: 13vw;
+    }
+    .centeredtext{
+        padding-top: 130px;
+        padding-bottom: 130px;
+        margin: 0;
+    }
+    .centeredtextsmlbottom{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    .adminintro{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+}
+
+[type="radio"]:not(:checked),
+[type="radio"]:checked {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: -9999px;      /* overflow correction */
+}
+/* Remove default checkbox */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: -9999px;      /* overflow correction */
+}
