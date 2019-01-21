@@ -18,7 +18,7 @@ session_start();
     <ul id="slide-out" class="sidenav">
         <li><div class="user-view">
             <div class="background" style="background-color: #ffcfce"></div>
-            <a href=""><img class="circle" src="img/Pasfoto-Janine-150x150.jpg"></a>
+            <a href=""><img class="circle" src="img/logo/Pasfoto-Janine-150x150.jpg"></a>
             <a href=""><span class="white-text name">Janine Kruf</span></a>
             <a href=""><span class="white-text email">info@zenzicoach.nl</span></a>
         </div></li>
