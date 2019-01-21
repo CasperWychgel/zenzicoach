@@ -27,7 +27,7 @@ mysqli_close($conn);
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="icon" href="../img/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="../img/logo/logo.png" type="image/gif" sizes="32x32">
 </head>
 
 <body>
@@ -113,7 +113,7 @@ else { ?>
                 <div class="row">
                     <div class="col l6 s12">
                         <div class="chip">
-                            <img src="../img/Profilepicturecas.jpg" alt="Contact Person">
+                            <img src="../img/logo/Profilepicturecas.jpg" alt="Contact Person">
                             By Casper Wychgel
                         </div>
                     </div>

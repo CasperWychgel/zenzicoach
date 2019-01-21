@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <link rel="icon" href="img/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="32x32">
 </head>
 <body>
 
@@ -87,7 +87,7 @@
 
 <section id="parralaxocean">
     <div class="parallax-container">
-        <div class="parallax"><img src="img/ocean.jpg"></div>
+        <div class="parallax"><img src="img/bg/ocean.jpg"></div>
     </div>
 </section>
 

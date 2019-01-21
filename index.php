@@ -9,7 +9,7 @@
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/materialize/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <link rel="icon" href="img/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="32x32">
 </head>
 <body>
 
@@ -40,7 +40,7 @@
             <div class="col s12 m6 l4 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/art_trees.jpg">
+                        <img src="img/bg/art_trees.jpg">
                         <span class="card-title">Mijn werkwijze</span>
                     </div>
                     <div class="card-content">
@@ -58,7 +58,7 @@
             <div class="col s12 m6 l4 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/ocean.jpg">
+                        <img src="img/bg/ocean.jpg">
                         <span class="card-title">Reiki</span>
                     </div>
                     <div class="card-content">
@@ -75,7 +75,7 @@
             <div class="col s12 m6 l4 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/sunbeams-in-woods-om.jpg">
+                        <img src="img/bg/sunbeams-in-woods-om.jpg">
                         <span class="card-title">Mijn verhaal</span>
                     </div>
                     <div class="card-content">

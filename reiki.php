@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <link rel="icon" href="img/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="32x32">
 </head>
 <body>
 
@@ -44,7 +44,7 @@
 
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="img/sunbeams-in-woods-om.jpg">
+                    <img class="activator" src="img/bg/sunbeams-in-woods-om.jpg">
                 </div>
                 <div class="card-content">
                     <span class="center-align card-title activator grey-text text-darken-4">Waar gebruik je Reiki voor?<i class="material-icons right">more_vert</i></span>
