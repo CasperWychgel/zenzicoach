@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col l6 s12">
                     <div class="chip">
-                        <img src="img/Profilepicturecas.jpg" alt="Contact Person">
+                        <img src="img/logo/Profilepicturecas.jpg" alt="Contact Person">
                         By Casper Wychgel
                     </div>
                 </div>
