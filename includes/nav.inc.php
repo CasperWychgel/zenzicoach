@@ -27,6 +27,7 @@ session_start();
                     <li><a class="subheader">Welkom <?php echo $_SESSION['a_username']?></a></li>
                     <li><a class="subheader">Administrator</a></li>
                     <li><a href="admin/zenzipanel.php">Zenzipanel</a></li>
+                    <li><a href="admin/zenzical.php">ZenziCalender</a></li>
                     <li><a class="subheader">Homepage</a></li>
         <?php } else { ?>
         <li><a class="subheader">Homepage</a></li>

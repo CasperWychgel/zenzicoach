@@ -28,6 +28,7 @@ if (!isset($_SESSION['a_username'])){
         <li><a class="subheader">Welkom <?php echo $_SESSION['a_username'] ?></a></li>
         <li><a class="subheader">Administrator</a></li>
         <li><a href="../admin/zenzipanel.php">Zenzipanel</a></li>
+        <li><a href="../admin/zenzical.php">ZenziCalender</a></li>
         <li><a class="subheader">Homepage</a></li>
         <li><a href="../index.php">Welkom</a></li>
         <li><a href="../verhaal.php">Mijn verhaal</a></li>
