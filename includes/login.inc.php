@@ -12,7 +12,7 @@ if (isset($_POST['submit'])){
     //error handler
 
     if (empty($username) || empty($password)) {
-        header("Location: ../mobile table-checkbox fix.html?login=empty");
+        header("Location: ../login.php?login=error");
         exit();
     } else {
 
@@ -20,14 +20,14 @@ if (isset($_POST['submit'])){
         $result = mysqli_query($conn,$sql);
         $resultcheck = mysqli_num_rows($result);
         if ($resultcheck < 1){
-            header("Location: ../mobile table-checkbox fix.html?login=error");
+            header("Location: ../login.php?login=error");
             exit();
         } else{
             if ($row = mysqli_fetch_assoc($result)) {
                 // De-hashing password
                 $hashedpasswordcheck = password_verify($password, $row['admin_password']);
                 if ($hashedpasswordcheck == false) {
-                    header("Location: ../mobile table-checkbox fix.html?login=wrongpassword");
+                    header("Location: ../login.php?login=error");
                     exit();
                 } elseif ($hashedpasswordcheck == true) {
                     //login admin
@@ -40,6 +40,6 @@ if (isset($_POST['submit'])){
         }
     }
 } else {
-    header("Location: ../mobile table-checkbox fix.html?login=failed");
+    header("Location: ../index.php?login=failed");
     exit();
 }
