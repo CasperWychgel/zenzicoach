@@ -11,7 +11,7 @@ $(document).ready(function(){
     $('.datepicker').datepicker({
         defaultDate: new Date(),
         minDate: new Date(),
-        maxDate: new Date(2019, 2, 17),
+        maxDate: new Date(2019, 8, 17),
         showClearBtn: true,
         format: 'd mmm, yyyy',
         yearRange: 1,
