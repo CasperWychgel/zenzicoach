@@ -13,99 +13,96 @@
 </head>
 <body>
 
-<div class="slider fullscreen">
-    <ul class="slides">
-        <li>
-            <img src="img/italie/image00002.jpeg">
-            <div class="caption center-align">
-                <h3>Villa Rosato</h3>
-            </div>
-        </li>
-        <li>
-            <img src="img/italie/image00001.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00003.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00004.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00005.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00006.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00007.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00008.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00009.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00010.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00011.jpeg">
-            <div class="caption center-align">
-                <h3>Buitenkeuken</h3>
-            </div>
-        </li>
-        <li>
-            <img src="img/italie/image00012.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00013.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00014.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00015.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00016.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00017.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00018.jpeg">
-            <div class="caption center-align">
-                <h3>Slaapkamer</h3>
-            </div>
-        </li>
-        <li>
-            <img src="img/italie/image00019.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00020.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00021.jpeg">
-            <div class="caption center-align">
-                <h3>Slaapkamer</h3>
-            </div>
-        </li>
-        <li>
-            <img src="img/italie/image00022.jpeg">
-        </li>
-        <li>
-            <img src="img/italie/image00024.jpeg">
-        </li>
+<!-- navigation section -->
+<?php include 'includes/nav.inc.php';?>
 
-    </ul>
-</div>
+<section id="intro">
+    <div class="backgroundtheme">
+        <h1 class="centeredtext center-align mobilefont teal-text text-lighten-2">Zenzicoach</h1>
+    </div>
+</section>
+
+<section id="reservationlink">
+    <div class="section white">
+        <div class="row">
+            <div class="col s12 m6 l4 xl3">
+                
+            </div>
+            <div class="col s12 m6 l4 xl3">
+
+            </div>
+            <div class="col s12 m6 l4 xl3">
+
+            </div>
+            <div class="col s12 m6 l4 xl3">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="responsive information cards">
+    <div class="backgroundtheme row">
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/bg/art_trees.jpg">
+                    <span class="card-title">Mijn werkwijze</span>
+                </div>
+                <div class="card-content">
+                    <p>
+                        Mijn andere manier van werken ontstaat vanuit mijn achtergrond als
+                        reikimaster. Door de reiki te combineren met coaching kan ik sneller en
+                        dieper op de problematiek ingaan, wat je gedurende het hele traject zal helpen.
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a href="werkwijze.php">Meer over mijn werkwijze</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/bg/ocean.jpg">
+                    <span class="card-title">Reiki</span>
+                </div>
+                <div class="card-content">
+                    <p>
+                        Reiki is een alternatieve geneeswijze. Hierbij maak ik gebruik van de energiestromen van de mens. Hierdoor kan ik levensenergie van mensen voelen en indien nodig,  jou je energie teruggeven.
+                        Dit zorgt ervoor dat je weer kracht krijgt en daardoor ook weer jezelf gelukkiger gaat voelen.
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a href="reiki.php">Meer over Reiki</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/bg/sunbeams-in-woods-om.jpg">
+                    <span class="card-title">Mijn verhaal</span>
+                </div>
+                <div class="card-content">
+                    <p>
+                        Mijn levensverhaal over hoe alles tot stand is gekomen.
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a href="verhaal.php">Lees mijn verhaal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer section -->
+<?php include 'includes/footer.php';?>
 
 <!-- scripts -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.slider').slider();
-    });</script>
+<script type="text/javascript" src="js/init.js"></script>
 </body>
 </html>

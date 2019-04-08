@@ -18,7 +18,7 @@ session_start();
     <ul id="slide-out" class="sidenav">
         <li><div class="user-view">
             <div class="background" style="background-color: #ffcfce"></div>
-            <a href=""><img class="circle" src="img/logo/pasfoto.jpg"></a>
+            <a href=""><img class="circle" src="img/logo/Pasfoto-Janine-150x150.jpg"></a>
             <a href=""><span class="white-text name">Janine Kruf</span></a>
             <a href=""><span class="white-text email">info@zenzicoach.nl</span></a>
         </div></li>
@@ -40,7 +40,7 @@ session_start();
         <li><a class="waves-effect" href="werkwijze.php">Werkwijze</a></li>
         <li><a class="waves-effect" href="reiki.php">Reiki</a></li>
         <li><a class="waves-effect" href="italy.php">Italië</a></li>
-        <li><a class="waves-effect" href="photo.php" target="_blank">Foto's</a></li>
+        <li><a class="waves-effect" href="photo.php">Foto's</a></li>
         <li><a class="waves-effect" href="costs.php">Tarieven</a></li>
         <li><a class="waves-effect" href="contact.php">Contact</a></li>
         <li><a class="subheader">Admin</a></li>

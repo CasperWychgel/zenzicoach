@@ -31,7 +31,3 @@ noUiSlider.create(slider, {
         decimals: 0
     })
 });
-$(document).ready(function(){
-    $('.materialboxed').materialbox();
-});
-
