@@ -12,7 +12,7 @@ if (isset($_POST['submit'])){
     //error handler
 
     if (empty($username) || empty($password)) {
-        header("Location: ../mobile table-checkbox fix.html?login=empty");
+        header("Location: ../index.php?login=empty");
         exit();
     } else {
 
