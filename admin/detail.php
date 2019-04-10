@@ -47,7 +47,7 @@ mysqli_close($conn);
 <body>
 <?php
 if (!isset($_SESSION['a_username'])){
-    header("Location: ../mobile table-checkbox fix.html?login=unauthorised");
+    header("Location: ../index.php?login=unauthorised");
     exit();
 }
 else { ?>
@@ -76,11 +76,16 @@ else { ?>
                 <?= $client['user_problem']; ?>
             </p>
             <h4 class=" center-align grey-text text-darken-3 lighten-3">Overige vragen/opmerkingen:</h4>
-            <p class="flow-text center-align grey-text text-darken-3 lighten-3">
-                <?= $client['user_question']; ?>
+            <div class="center-align">
+                <form method="post" action="detail.php">
+                <input type="text" class="grey-text center-align text-darken-3 lighten-3" id="<?= $client['id']; ?>" value="<?= $client['user_question']; ?>">
                 <br><br>
+                </form>
+                <br><br>
+
                 <a class="btn waves-effect waves-light grey darken-3" href="zenzipanel.php" >Zenzipanel</a>
-            </p>
+            </div>
+
         </div>
     </div>
 </section>
