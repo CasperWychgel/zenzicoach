@@ -11,7 +11,11 @@
     <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="32x32">
 </head>
 <body>
-
+<?php
+$giphy = new \xeased\giphy\Giphy($api_key);
+$randomGif = $giphy->gif()->random();
+$randomSticker = $giphy->sticker()->roulette();
+?>
 <!-- navigation section -->
 <?php include 'includes/nav.inc.php';?>
 

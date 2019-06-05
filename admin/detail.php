@@ -77,10 +77,10 @@ else { ?>
             </p>
             <h4 class=" center-align grey-text text-darken-3 lighten-3">Overige vragen/opmerkingen:</h4>
             <div class="center-align">
-                <form method="post" action="detail.php">
-                <input type="text" class="grey-text center-align text-darken-3 lighten-3" id="<?= $client['id']; ?>" value="<?= $client['user_question']; ?>">
-                <br><br>
-                </form>
+                <p class="flow-text center-align grey-text text-darken-3 lighten-3">
+                    <?= $client['user_question']; ?>
+                </p>
+
                 <br><br>
 
                 <a class="btn waves-effect waves-light grey darken-3" href="zenzipanel.php" >Zenzipanel</a>
