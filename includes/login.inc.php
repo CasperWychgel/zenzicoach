@@ -13,9 +13,6 @@ if (isset($_POST['submit'])){
 
     if (empty($username) || empty($password)) {
         header("Location: ../login.php?login=error");
-=======
-        header("Location: ../index.php?login=empty");
->>>>>>> a6ce16e42cd8d9b327d55860b2e82aa6e931f123
         exit();
     } else {
 
