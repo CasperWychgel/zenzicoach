@@ -19,7 +19,7 @@ Bericht : {$message}
 
 /*Send the mail*/
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
-$apiKey = ('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');
+$apiKey = ('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');
 $sg = new \SendGrid($apiKey);
 
 /*Response*/
