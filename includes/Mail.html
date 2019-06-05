@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
+    <style>
+        h1, h2, h3, h4, p {
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="teal lighten-2 z-depth-5 container">
+    <h2 class="centeredtext center-align white-text ">Zenzicoach</h2>
+</div>
+    <div class="white">
+        <div class="container">
+
+            <h4 class="center-align black-text">Beste {$first}, bedankt voor je reservering!</h4>
+
+
+            <div class="row">
+                <div class="col s12">
+                    <div class="card-panel teal">
+                        <span class="white-text center-align centeredtext">U heeft een afspraak gereserveerd onder de naam {$first} {$last},<br>
+                met als telefoonnummer: {$tel}.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <h4 class="center-align black-text">Wanneer is uw afspraak?</h4>
+
+            <p class="center-align grey-text">
+                Uw afspraak staat bij ons in de agenda op {$date}.<br><br>
+                Als u verder nog vragen heeft kunt u ons altijd bereiken via: info@zenzicoach.nl
+            </p>
+        </div>
+    </div>
+
+
+</body>
+</html>

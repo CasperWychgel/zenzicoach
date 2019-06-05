@@ -4,17 +4,17 @@ require_once ('vendor/autoload.php');
 
 /*Post Data*/
 $name = $_POST['name'];
-$email = $_POST['email'];
 $message = $_POST['message'];
 
 /*Content*/
-$from = new SendGrid\Email("Zenzicoach", "info@zenzicoach.nl");
-$subject = "Uw Reservering";
+$from = new SendGrid\Email("{$name} - Zenzicoach", "info@zenzicoach.nl");
+$subject = "Zenzicoach Reservering";
 $to = new SendGrid\Email("Casper Wychgel", "casper.wychgel@gmail.com");
 $content = new SendGrid\Content("text/html", "
-Email : {$email}<br>
-Name : {$name}<br>
-Bericht : {$message}
+{$message}
+<br><br>
+Met vriendelijke groet,<br>
+{$name}.
 ");
 
 /*Send the mail*/
