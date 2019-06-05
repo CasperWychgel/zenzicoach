@@ -16,7 +16,7 @@ $userid = $_GET['id'];
 //Get the record from the database result
 $query = "SELECT * FROM users WHERE id = " . mysqli_escape_string($conn, $userid);
 $result = mysqli_query($conn, $query)
-    or die ('Error: ' . $query );
+or die ('Error: ' . $query );
 
 if(mysqli_num_rows($result) == 1)
 {

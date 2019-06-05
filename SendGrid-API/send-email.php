@@ -3,18 +3,21 @@
 require_once ('vendor/autoload.php');
 
 /*Post Data*/
-$name = $_POST['name'];
+$admin = $_POST['admin'];
 $message = $_POST['message'];
+$email = $_POST['email'];
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
 
 /*Content*/
-$from = new SendGrid\Email("{$name} - Zenzicoach", "info@zenzicoach.nl");
+$from = new SendGrid\Email("{$admin} - Zenzicoach", "info@zenzicoach.nl");
 $subject = "Zenzicoach Reservering";
-$to = new SendGrid\Email("Casper Wychgel", "casper.wychgel@gmail.com");
+$to = new SendGrid\Email("{$firstname} {$lastname}", "{$email}");
 $content = new SendGrid\Content("text/html", "
 {$message}
 <br><br>
 Met vriendelijke groet,<br>
-{$name}.
+{$admin}.
 ");
 
 /*Send the mail*/
@@ -24,9 +27,6 @@ $sg = new \SendGrid($apiKey);
 
 /*Response*/
 $response = $sg->client->mail()->send()->post($mail);
+header('Location: ../admin/zenzipanel.php');
+exit;
 ?>
-
-<!--Print the response-->
-<pre>
-    Hallo het is gelukt!
-</pre>

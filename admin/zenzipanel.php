@@ -96,7 +96,7 @@ else { ?>
                             <a class="btn waves-effect waves-light grey darken-3" href="edit.php?id= <?php echo $row['id'] ?> " >Edit</a>
                         </td>
                         <td>
-                            <a class="btn waves-effect waves-light grey darken-3" href="./mailform.php" onclick="return confirm('Weet u zeker dat u deze klant(en) een herinnerings email wilt sturen?')" >Mail</a>
+                            <a class="btn waves-effect waves-light grey darken-3" href="./mailform.php?id= <?php echo $row['id'] ?> " onclick="return confirm('U heeft <?php echo $row['user_first'] ?> geselecteerd?')" >Mail</a>
                         </td>
                     </tr>
                     <?php } ?>
